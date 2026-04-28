@@ -1,5 +1,5 @@
 {
-  "id": "fallencycle",
+  "id": "FallenCycle",
   "title": "Fallen Cycle",
   "description": "A TTRPG of past lives and hidden worlds.",
   "version": "0.1.0",
@@ -22,13 +22,13 @@
       "name": "vessels",
       "label": "Fallen Cycle Vessels",
       "type": "Actor",
-      "system": "fallencycle"
+      "system": "FallenCycle"
     },
     {
       "name": "capabilities",
       "label": "Traits, Flaws, and Skills",
       "type": "Item",
-      "system": "fallencycle"
+      "system": "FallenCycle"
     }
   ],
   "languages": [
@@ -57,7 +57,7 @@
   "primaryTokenAttribute": "domains.prowess",
   "secondaryTokenAttribute": "domains.thought",
   "license": "LICENSE.txt",
-  "url": "https://github.com/your-username/fallencycle",
-  "manifest": "https://github.com/your-username/fallencycle/releases/latest/download/system.json",
-  "download": "https://github.com/your-username/fallencycle/releases/latest/download/fallencycle.zip"
+  "url": "https://github.com/mm-scott/FallenCycle.git",
+  "manifest": "https://://githubusercontent.com/mm-scott/FallenCycle/system.json"
+
 }
