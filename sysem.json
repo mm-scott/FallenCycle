@@ -1,0 +1,63 @@
+{
+  "id": "fallencycle",
+  "title": "Fallen Cycle",
+  "description": "A TTRPG of past lives and hidden worlds.",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "James Curcio",
+      "url": "https://www.modernmythology.net/",
+      "email": "james@modernmythology.net",
+      "discord": "https://discord.gg/PrV8NdjUXK"
+    }
+  ],
+  "esmodules": ["fallencycle.mjs"],
+  "styles": ["styles/fallencycle.css"],
+  "packs": [
+    {
+      "name": "vessels",
+      "label": "Fallen Cycle Vessels",
+      "type": "Actor",
+      "system": "fallencycle"
+    },
+    {
+      "name": "capabilities",
+      "label": "Traits, Flaws, and Skills",
+      "type": "Item",
+      "system": "fallencycle"
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "documentTypes": {
+    "Actor": {
+      "vessel": { "htmlFields": ["biography"] }
+    },
+    "Item": {
+      "skill": {},
+      "trait": {},
+      "flaw": {}
+    }
+  },
+  "socket": false,
+  "initiative": "1d6",
+  "grid": {
+    "distance": 2,
+    "units": "m"
+  },
+  "primaryTokenAttribute": "domains.prowess",
+  "secondaryTokenAttribute": "domains.thought",
+  "license": "LICENSE.txt",
+  "url": "https://github.com/your-username/fallencycle",
+  "manifest": "https://github.com/your-username/fallencycle/releases/latest/download/system.json",
+  "download": "https://github.com/your-username/fallencycle/releases/latest/download/fallencycle.zip"
+}
