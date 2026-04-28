@@ -15,8 +15,9 @@
       "discord": "https://discord.gg/PrV8NdjUXK"
     }
   ],
-
-  "styles": ["styles/fallencycle.css"],
+  "styles": [
+    "styles/fallencycle.css"
+  ],
   "packs": [
     {
       "name": "vessels",
@@ -40,11 +41,16 @@
   ],
   "documentTypes": {
     "Actor": {
-      "vessel": { "htmlFields": ["biography"] }
+      "vessel": {
+        "htmlFields": [
+          "biography"
+        ]
+      }
     },
     "Item": {
       "skill": {},
       "trait": {},
       "flaw": {}
     }
-  },
+  }
+}
